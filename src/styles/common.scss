@@ -1,0 +1,20 @@
+@import "./reset.css";
+
+@font-face {
+    font-family: 'DS-DIGIT';
+    src: url('@/assets/font/DS-DIGIT.TTF');
+}
+
+#app {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+}
+
+.layout {
+    padding: 20px;
+    box-sizing: border-box;
+}
